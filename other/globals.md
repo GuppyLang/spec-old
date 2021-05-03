@@ -1,0 +1,9 @@
+# Globals
+- [`Integer`](#integer)
+- [`String`](#string)
+- [`Array`](#array)
+- [`Namespace`](#namespace)
+- [`RegEx`](#regex)
+- [`Instance`](#instance)
+- [`__FILE__`](#file)
+- [`__DIR__`](#dir)

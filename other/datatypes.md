@@ -1,0 +1,20 @@
+# Datatypes 
+- [`Integer`](#integer)
+    - `Integer::8`
+    - `Integer::16`
+    - `Integer::32`
+    - `Integer::64`
+    - `Integer::128`
+- [`String`](#string)
+- [`Boolean`](#boolean)
+- [`Array`](#array)
+- [`Namespace`](#namespace)
+- [`Instance`](#instance)
+- [`RegEx`](#regex)
+### Integer
+### String 
+### Boolean 
+### Array 
+### Namespace 
+### Instance 
+### RegEx
