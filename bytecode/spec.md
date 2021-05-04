@@ -1,0 +1,12 @@
+- `HEADER_START`
+- `HEADER_END` 
+- Flags
+    - `FLAG_STATIC`
+    - `FLAG_DEBUG`
+- `INPUT_START`
+- `INPUT_END`
+- `MAKE`
+- `EXIT`
+
+
+

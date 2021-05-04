@@ -45,7 +45,7 @@ set MyNamespace::{
 
 MyNamespace::x = 2
 MyNamespace::y = 3 
-MyNamespace::z = 4 # ERROR, z is a contant 
+MyNamespace::z = 4 # Error, z is a contant 
 ```
 ### Instances
 Namespaces can also be instantiated, making them into a new independent object-like data type. All namespaces will have a `create()` method and can be made into a new `Instance` using it. 
@@ -56,7 +56,16 @@ set MyNamespace::{
     ...
 }
 
-set mut MyInstance = MyNamespace::create()
+set my_instance = MyNamespace::create()
 ```
 
-`create()` can also take arguments that will be passed to an `init` function within the 
+`create()` can also be used with arguments, in which the namespace is defined with parenthesis enclosing it's arguments.
+
+```
+set MyNamespace(a, b)::{
+    set x = a 
+    set y = b
+}
+
+set my_instance = MyNamespace::create(5, 10)
+``` 
